@@ -4,13 +4,13 @@
 
 ## Parser 解析组件
 
-迭代一：byte[] -> Map<String,List<Map>>
+迭代一：byte[] -> Map<String,List<Map>><br>
   迭代二：byte[] -> Object implements Serializable
 
 ## serializer 组装报文组件
 支持对象序列化
 
-迭代一：Map<String,List<Map>> -> byte[]
+迭代一：Map<String,List<Map>> -> byte[] <br>
   迭代二：Object implements Serializable -> byte[]
 
 ## 时间安排
